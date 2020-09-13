@@ -13,6 +13,8 @@
 		B503772E250E224800680DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B503772D250E224800680DDD /* Assets.xcassets */; };
 		B5037731250E224800680DDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5037730250E224800680DDD /* Preview Assets.xcassets */; };
 		B5037734250E224800680DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5037732250E224800680DDD /* LaunchScreen.storyboard */; };
+		B503773C250E56D000680DDD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503773B250E56D000680DDD /* CircleImage.swift */; };
+		B563276E250E584300315E17 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563276D250E584300315E17 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B5037730250E224800680DDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5037733250E224800680DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5037735250E224800680DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B503773B250E56D000680DDD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B563276D250E584300315E17 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B5037732250E224800680DDD /* LaunchScreen.storyboard */,
 				B5037735250E224800680DDD /* Info.plist */,
 				B503772F250E224800680DDD /* Preview Content */,
+				B503773B250E56D000680DDD /* CircleImage.swift */,
+				B563276D250E584300315E17 /* MapView.swift */,
 			);
 			path = SwiftUITutorial01;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5037728250E224000680DDD /* AppDelegate.swift in Sources */,
+				B503773C250E56D000680DDD /* CircleImage.swift in Sources */,
+				B563276E250E584300315E17 /* MapView.swift in Sources */,
 				B503772A250E224000680DDD /* SceneDelegate.swift in Sources */,
 				B503772C250E224000680DDD /* ContentView.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				DEVELOPMENT_TEAM = 72SKTM5ZK3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITutorial01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				DEVELOPMENT_TEAM = 72SKTM5ZK3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITutorial01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
